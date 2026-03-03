@@ -1,0 +1,16 @@
+version: "3.1"
+
+intents:
+  - greet
+  - motivation
+
+responses:
+  utter_greet:
+    - text: "Hello 😊 How are you feeling?"
+
+  utter_motivation:
+    - text: "Push yourself because no one else will do it for you."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
